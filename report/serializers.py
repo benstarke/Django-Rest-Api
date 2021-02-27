@@ -6,4 +6,4 @@ from .models import *
 class CreateReportSerializer(serializers.ModelSerializer):
     class Meta:
         model = createreport
-        fields = ['id','title']
+        fields = ['id','title','description']
